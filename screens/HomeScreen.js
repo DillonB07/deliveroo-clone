@@ -90,7 +90,7 @@ const HomeScreen = () => {
           <FeaturedRow
             key={featuredCategory?._id}
             id={featuredCategory?._id}
-            title={featuredCategory?.title}
+            title={featuredCategory?.name}
             description={featuredCategory?.short_description}
           />
         ))}
