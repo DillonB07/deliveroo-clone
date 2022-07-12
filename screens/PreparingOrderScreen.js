@@ -7,6 +7,13 @@ import * as Progress from "react-native-progress";
 const PreparingOrderScreen = () => {
   const navigation = useNavigation();
 
+  useEffect(() => {
+    // Accept order after 5 seconds
+    setTimeout(() => {
+      navigation.navigate("Delivery");
+    }, 4000);
+  }, []);
+
   return (
     <SafeAreaView className="bg-[#00CCBB] flex-1 justify-center items-center">
       <Animatable.Image
