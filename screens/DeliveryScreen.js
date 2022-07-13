@@ -79,6 +79,7 @@ const DeliveryScreen = () => {
           <Text className="text-lg">Dillon Barnes</Text>
           <Text className="text-gray-400">Your Rider</Text>
         </View>
+
         <TouchableOpacity>
           <Text className="text-[#00CCBB] text-lg mr-5 font-bold">Call</Text>
         </TouchableOpacity>
