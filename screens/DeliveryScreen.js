@@ -57,6 +57,7 @@ const DeliveryScreen = () => {
           }}
           className="flex-1 -mt-10 z-0"
           mapType="mutedStandard"
+          showsUserLocation={true}
         >
           <Marker
             coordinate={{
